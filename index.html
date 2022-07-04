@@ -4,9 +4,163 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Admin Dashboard</title>
 </head>
 <body>
-  
+  <!-- Main Container -->
+  <div id="container">
+
+    <!-- Navigation -->
+    <nav>
+      <!-- Searchbar and User Info -->
+      <div>
+        <div id="searchbar"></div>
+        <div id="user-info">
+          <div id="notification-bell"></div>
+          <div id="nav-logo"></div>
+          <p>Morgan Oakley</p>
+        </div>
+      </div>
+      <!-- Greeting and Sharing Options -->
+      <div>
+        <div id="greeting">
+          <div id="greeting-logo"></div>
+          <div id="greeting-text">
+            <p>Hi there, </p>
+            <p id="user-name">Morgan Oakley (@morgan)</p>
+          </div>
+        </div>
+        <div id="button-group">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <!-- Heading and Logo -->
+      <h3>Dashboard</h3>
+      <!-- Main Option Group -->
+      <ul>
+        <li>Home</li>
+        <li>Profile</li>
+        <li>Messages</li>
+        <li>History</li>
+        <li>Tasks</li>
+        <li>Communities</li>
+      </ul>
+      <!-- Help Option Group -->
+      <ul>
+        <li>Settings</li>
+        <li>Support</li>
+        <li>Privacy</li>
+      </ul>
+    </div>
+
+    <!-- Content Section -->
+    <div id="main-content">
+      <!-- "Your Projects" Section -->
+      <div id="projects">
+        <h3>Your Projects</h3>
+        <!-- Card Grid -->
+        <div id="card-grid">
+          <div class="project-card">
+            <h4>Super Cool Project</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus consequuntur assumenda alias eius molestias iure ad ab animi deleniti neque facere nostrum molestiae beatae, excepturi.</p>
+            <div class="project-options"></div>
+          </div>
+          <div class="project-card">
+            <h4>Impossible App</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sit aspernatur harum cum corrupti ex nisi iste reiciendis, ad mollitia voluptates aliquid dolores.
+            </p>
+            <div class="project-options"></div>
+          </div>
+          <div class="project-card">
+            <h4>Ad Blocker</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt minus quas nesciunt, odit autem dolorum expedita. </p>
+            <div class="project-options"></div>
+          </div>
+          <div class="project-card">
+            <h4>Less Cool Project</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum exercitationem labore natus, beatae id nesciunt? Beatae ex saepe, dolorum magni est provident? Libero, unde?</p>
+            <div class="project-options"></div>
+          </div>
+          <div class="project-card">
+            <h4>Easy Peasy App</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iure numquam maiores quidem iste possimus tempora necessitatibus nam!</p>
+            <div class="project-options"></div>
+          </div>
+          <div class="project-card">
+            <h4>Money Maker</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, maiores. Magni iste molestias temporibus.</p>
+            <div class="project-options"></div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Right Side of Main Content -->
+      <div id="right-sidebar">
+        <!-- Announcements Section -->
+        <div id="announcements">
+          <h3>Announcements</h3>
+          <div id="announcement-box">
+            <div class="description">
+              <div class="description-heading">Site Maintenance</div>
+              <p class="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, ex nobis accusamus enim aliquid illo.</p>
+            </div>
+            <div class="description">
+              <div class="description-heading">Community Share Day</div>
+              <p class="description-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias vitae a blanditiis itaque natus impedit amet ipsa!</p>
+            </div>
+            <div class="description">
+              <div class="description-heading">Updated Privacy Policy</div>
+              <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas delectus molestiae neque atque!</p>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- Trending Section -->
+        <div id="trending">
+          <div class="account-tab">
+            <div class="account-logo"></div>
+            <div class="trending-bio">
+              <p class="account-tag">@tegan</p>
+              <p class="bio">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="account-tab">
+            <div class="account-logo"></div>
+            <div class="trending-bio">
+              <p class="account-tag">@morgan</p>
+              <p class="bio">Super Cool Project</p>
+            </div>
+          </div>
+          <div class="account-tab">
+            <div class="account-logo"></div>
+            <div class="trending-bio">
+              <p class="account-tag">@kendall</p>
+              <p class="bio">Life Changing App</p>
+            </div>
+          </div>
+          <div class="account-tab">
+            <div class="account-logo"></div>
+            <div class="trending-bio">
+              <p class="account-tag">@alex</p>
+              <p class="bio">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+
+      
+
+    </div>
+  </div>
 </body>
 </html>
